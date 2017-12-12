@@ -13,7 +13,7 @@ export default Oauth2.extend({
   // additional url params that this provider requires
   requiredUrlParams: ['state'],
 
-  responseParams: ['code','session_state','state'],
+  responseParams: ['code','state'],
 
   state: configurable('state', function() {
     // A hack that allows redirectUri to be configurable but default to the
