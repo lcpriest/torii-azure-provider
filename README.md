@@ -31,7 +31,7 @@ module.exports = function(environment) {
       providers: {
         'azure-oauth2': {
           apiKey: 'AZURE APP CLIENT ID GOES HERE',
-          redirect_uri: "APP URI GOES HERE",
+          redirectUri: "APP URI GOES HERE",
           state: "STATE" // For CSRF, should be random & unguessable
         }
       }
