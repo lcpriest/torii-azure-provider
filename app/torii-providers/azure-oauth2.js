@@ -8,7 +8,7 @@ import { configurable } from 'torii/configuration';
  */
 export default Oauth2.extend({
   name: 'azure-oauth2',
-  baseUrl: 'https://login.microsoftonline.com/common/oauth2/authorize',
+  baseUrl: 'https://login.microsoftonline.com/common/oauth2/v2.0/authorize',
 
   // additional url params that this provider requires
   requiredUrlParams: ['state'],
